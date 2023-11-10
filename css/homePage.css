@@ -1,12 +1,32 @@
+@font-face {
+    font-family: Aileron;
+    src: url('../fonts/Aileron-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Aileron;
+    src: url('../fonts/Aileron-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Aileron;
+    src: url('../fonts/Aileron-Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(255,255,255);
+    font-family: Aileron;
 }
 header {
     background-image: url("../img/FUNDO.png");
     background-position: center;
     background-size: cover;
+    height: 450px;
 }
 .barra_navegacao {
     display: flex;
@@ -64,6 +84,9 @@ header {
 .item_etapa .destaque {
     color: rgb(152,202,63);
 }
+.item_etapa p {
+    color: rgb(115, 110, 110);
+}
 .item_etapa a {
     font-weight: bold;
     color: rgb(0,0,0);
@@ -76,13 +99,28 @@ header {
 .area_depoimento {
     background-color: rgb(152,202,63);
     display: flex;
-    padding: 100px 20px;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
 }
 .depoimento {
-    width: 350px;
+    width: 500px;
+    margin: 0 25px;
+}
+.depoimento .fala {
+    color: rgb(21, 21, 63);
+    font-style: italic;
 }
 .depoimento .autor {
     text-transform: uppercase;
+    font-size: 16px;
+}
+.depoimento .posicao {
+    font-size: 12px;
+}
+.imagens img {
+    width: 75%;
+    height: auto;
 }
 .depoimento h3, .depoimento .autor {
     color: rgb(255,255,255);
