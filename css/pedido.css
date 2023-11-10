@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255,255,255);
+}
+
+.rodape {
+    display: flex;
+    background-color: rgb(246,248,249);
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape_servicos{
+    display: flex;
+    list-style: none;
+}
+.item_servico {
+    margin: 7px;
+    font-weight: bold;
+    color: rgb(81,84,94);
+}
+.rodape_social {
+    margin: 25px 50px;
+}

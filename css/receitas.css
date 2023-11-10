@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255,255,255);
+}
+header {
+    background-image: url("../img/FUNDO.png");
+    background-position: center;
+    background-size: cover;
+}
+.barra_navegacao {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+}
+.item_navegacao {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.item_navegacao:nth-child(2) {
+    text-decoration: underline 2px rgb(255,255,255);
+    text-underline-offset: 5px;
+}
+
+.pedido_navegacao, .pedido_redireciona {
+    margin: 15px;
+    padding: 2px 15px;
+    border: 2px solid rgb(152,202,63);
+    border-radius: 5px;
+    background-color: rgb(152,202,63);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+.resumo {
+    align-items: center;
+    text-align: center;
+    color: rgb(255,255,255);
+    max-width: 300px;
+    margin: 20px auto 0;
+}
+.resumo img {
+    width: 90%;
+}
+.rodape {
+    display: flex;
+    background-color: rgb(246,248,249);
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape_servicos{
+    display: flex;
+    list-style: none;
+}
+.item_servico {
+    margin: 7px;
+    font-weight: bold;
+    color: rgb(81,84,94);
+}
+.rodape_social {
+    margin: 25px 50px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pedido.css">
+    <title>Platzi Pizzaria Pedido</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="" id="logo_cabecalho">
+
+        <nav class="barra_navegacao">
+            <a href="index.html" class="item_navegacao">Main</a>
+            <a href="receitas.html" class="item_navegacao">receitas</a>
+            <a href="#" class="pedido_navegacao">Peça online</a>
+        </nav>
+    </header>
+    <main class="area_pedido">
+        <section class="menu_pedido">
+            <div class="opcao_pedido">
+                <label for="sabores">Escolha o sabor da sua Pizza</label>
+                <select name="sabores" required>
+                    <option value="salame">salame</option>
+                    <option value="pepperoni">pepperoni</option>
+                    <option value="havaina">havaina</option>
+                </select>
+            </div>
+            <div class="opcao_pedido">
+                <label for="tamanho">Escolha o tamanho da sua Pizza</label>
+                <select name="tamanho" required>
+                    <option value="grande">grande</option>
+                    <option value="media">média</option>
+                    <option value="pequena">pequena</option>
+                </select>
+            </div>
+            <div class="opcao_endereco" >
+                <label for="endereco">
+                    <input type="text" name="endereco" placeholder="Ingrese seu endereço completo" required>
+                    <img src="img/pin.svg">
+                </label>
+                <p>Unicamente para Brasil<p>
+            </div>
+        </section>
+        <section class="mapa">
+            <img src="img/mapa.png" alt="mapa da Plazi pizzaria ">
+            <input type="submit" value="confirmar">
+        </section>
+        <section class="logo">
+            <img src="img/logo_preta.svg" alt="Logotipo da Platzi Pizzaria">
+        </section>
+    </main>
+    <footer class="rodape">
+        <ul class="rodape_servicos">
+            <li class="item_servico">Status</li>
+            <li class="item_servico">Privacy & Terms</li>
+            <li class="item_servico">Contact Us</li>
+        </ul>
+        <div class="rodape_social">
+            <img src="img/bandeira-brasil.svg" alt="Bandeira do Brasil" class="item_social">
+            <img src="img/SOCIAL.svg" alt="Icones das redes sociais: Instagram, Facebook e Twitter (novo X)" class="item_social">
+        </div>
+    </footer>
+</body>
+</html>
